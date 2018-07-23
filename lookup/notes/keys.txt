@@ -1,0 +1,38 @@
+4YD = Keystone
+1NL = GulfStream Scenic
+1RF = Monaco Beaver Santiam
+1RF = Beaver
+4VZ = Newmar Dutch Star
+4S7 or 4VZ = Fleetwood = spartan
+1KB = Holliday Rambler
+1XP = PETERBILT
+4UZ= AMERICAN
+4UZ= AMERICOACH
+4SL=SAFARI
+1FU = Freightliner
+4U7 = COuntry Coach
+1TC = COACHMEN
+
+
+pcrash = This data element identifies the attribute that best describes the critical event which
+made this crash imminent (i.e., something occurred which made the collision possible)
+1 = blowout
+
+dr-cf = This data element records factors related to this driver expressed by the
+investigating officer.
+
+
+80 is tire
+28 is unable to stay in lane
+17 running off road
+58 = over correcting
+This data element identifies whether this crash occurred on a trafficway that is part of the National Highway System.
+
+NHS = 1
+Definition: This data element identifies the route signing of the trafficway on which the crash
+occurred.
+ROUTE = 1,2,3 or 9
+
+Interstate
+2 U.S. Highway
+3 State Highway

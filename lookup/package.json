@@ -17,8 +17,16 @@
     "jade": "~1.11.0",
     "locus": "^2.0.1",
     "morgan": "~1.9.0",
+    "nhtsa": "^1.2.7",
     "pg-promise": "^5.9.7",
     "serve-favicon": "~2.4.5",
-    "underscore": "^1.9.1"
+    "underscore": "^1.9.1",
+    "vehicle-history-provider-web": "file:node_modules/vehicle-history-provider-web",
+    "vin-decode": "^0.2.0",
+    "vin-decoder": "^1.0.21",
+    "vin-lib": "^1.0.2",
+    "vindec": "^2.6.3",
+    "vindec-nhtsa": "^1.1.0",
+    "vinfo": "^0.1.1"
   }
 }

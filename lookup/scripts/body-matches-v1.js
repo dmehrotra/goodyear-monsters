@@ -95,7 +95,7 @@ function formatResponse(data){
      
   _.each(data,function(d){
     d.date = d["MONTH"] + '/' + d["DAY"] + '/' + d["YEAR"];
-    d = _.omit(d,['COUNTY','DAY','MONTH','YEAR','HOUR','MINUTE','NHS','ROUTE','LATITUDE','LONGITUD','VEH_NO','REG_STAT','TRAV_SP','DEATHS','DR_SF',"DR_SF1","DR_SF2","DR_SF3","DR_SF4","P_CRASH2","ACC_YEAR","DR_CF1","DR_CF2","DR_CF3","DR_CF4","MAK_MOD","STATE"])
+    d = _.omit(d,['COUNTY','DAY','MONTH','HOUR','MINUTE','NHS','ROUTE','LATITUDE','LONGITUD','VEH_NO','REG_STAT','TRAV_SP','DEATHS','DR_SF',"DR_SF1","DR_SF2","DR_SF3","DR_SF4","P_CRASH2","ACC_YEAR","DR_CF1","DR_CF2","DR_CF3","DR_CF4","MAK_MOD"])
     p.push(d)
   })
   return p

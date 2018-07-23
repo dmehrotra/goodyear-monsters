@@ -59,3 +59,51 @@ id SERIAL PRIMARY KEY,
 "date" date
     
 )
+CREATE TABLE vin
+(
+id SERIAL PRIMARY KEY,
+"vehicle_index" int,
+"ACC_YEAR" text,
+"MAKE" text,
+"MODEL" text,
+"YEAR" text,
+"VIN" text,
+"VEHICLE_TYPE" text
+    
+)
+    
+CREATE TABLE vin_match
+(
+id SERIAL PRIMARY KEY,
+"claim_index" int,
+"accident_index" int,
+"vehicle_index" int,
+"ACC_YEAR" text,
+"VIN_ID" int,
+"STATE" int,
+"ST_CASE" int
+
+)
+CREATE TABLE f_r_match
+(
+id SERIAL PRIMARY KEY,
+"claim_index" int,
+"accident_index" int,
+"vehicle_index" int,
+"ACC_YEAR" text,
+"VIN_ID" int,
+"STATE" int,
+"ST_CASE" int
+
+)
+CREATE TABLE vin_make_match_no_date
+(
+id SERIAL PRIMARY KEY,
+"claim_index" int,
+"accident_index" int,
+"vehicle_index" int,
+"ACC_YEAR" text,
+"STATE" int,
+"ST_CASE" int
+
+)
